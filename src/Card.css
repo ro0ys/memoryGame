@@ -1,0 +1,36 @@
+.memory > .card {
+  border: 0.08em solid silver;
+  cursor: default;
+  border-radius: 10px;
+  height: 160px;
+  width: 80px;
+  font-size: 2.7em;
+  margin-left: 5%;
+  margin-bottom: 4%;
+  padding: auto;
+  cursor: pointer; 
+}
+
+.memory > .card.hidden {
+  background: silver;
+}
+
+.memory > .card.justMatched,
+.memory > .card.justMismatched {
+  border: 0.1em solid green;
+  border-radius: 10px;
+
+}
+.memory > .card.justMismatched {
+  border-color: red;
+    border-radius: 10px;
+
+}
+
+.memory > .card.visible {
+  cursor: not-allowed;
+}
+
+.memory > .card > .symbol {
+  margin: auto;
+}

@@ -1,0 +1,6 @@
+.memory > .guesses {
+  font-size: 1em;
+  width: calc(100% - 0.4em);
+  margin: 0.2em;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, 'Courier New', monospace;
+}
